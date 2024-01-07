@@ -1,0 +1,147 @@
+/* telo*/
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* hlavicka */
+  header {
+    background-color: rgb(63, 59, 59);  
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #FF5700;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 50px;
+    height: 50px; 
+    margin-right: 10px; 
+  }
+ /* hlavna cast */
+ main {
+    margin-top: 100px; 
+  }
+  
+  main p {
+    text-align: center;
+    margin: 20px;
+    font-size: larger;
+  }
+  
+  main img {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin-top: 30px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+
+  .grid-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px; 
+  }
+  
+  .grid-item {
+    text-align: center;
+    border: 1px solid #ddd; 
+    padding: 10px; 
+  }
+  
+  .grid-item img {
+    max-width: 100%; 
+    height: auto; 
+    margin-top: 10px; 
+  }
+  
+  .grid-container2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-left: 30%;
+    margin-top: 20px;
+}
+
+.plus-minus {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.plus {
+    background-color: #c5e1a5;
+}
+
+.minus {
+    background-color: #ef9a9a;
+}
+
+/* nozicka */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+footer a{
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline; 
+    color: #FF5700; 
+}
+/* plusy minusy */
+
+h1 {
+    grid-column: span 2;
+    color: #333;
+}
+
+h2 {
+    color: #666;
+}
+
+.pros, .cons {
+    list-style: none;
+    padding: 0;
+}
+
+.pros li {
+    color: #008000;
+}
+
+.cons li {
+    color: #ff0000;
+}
+  
